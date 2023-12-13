@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
         children: _todoList.map((TodoModel todo) {
           return ToDoItem(
               todo: todo,
-              onTodoChanged: _handleTodoChange,
+              onTodoChanged: todoCheckbox,
               removeTodo: _deleteTodo);
         }).toList(),
       ),

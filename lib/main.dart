@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
           return ToDoItem(
               todo: todo,
               onTodoChanged: todoCheckbox,
-              removeTodo: _deleteTodo);
+              removeTodo: _deleteTodo); //Model/arrangement for how variables should be defined in the ToDoItem class. 
         }).toList(),
       ),
       floatingActionButton: FloatingActionButton(
